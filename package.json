@@ -1,0 +1,36 @@
+{
+    "title": "shepow",
+    "name": "Shepow LLC",
+    "version": "1.0.0",
+    "description": "A visual design & web development agency",
+    "scripts": {
+        "test": "echo \"Error:no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": " "
+    },
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template"
+    ],
+    "license": "ISC",
+    "author": "Nancy Moy Gattu",
+    "dependencies": {
+        "bootstrap": "4.0.0",
+        "jquery": "3.3.1",
+        "jquery.easing": "^1.4.1"
+    },
+    "devDependencies": {
+        "browser-sync": "2.23.6",
+        "gulp": "^3.9.1",
+        "gulp-autoprefixer": "^5.0.0",
+        "gulp-cssnano": "^2.1.2",
+        "gulp-sass": "^3.1.0",
+        "gulp-sourcemaps": "^2.6.4"
+    }
+}

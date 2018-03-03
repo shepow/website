@@ -1,0 +1,63 @@
+	/* Bottom menu
+	* --------------------------------------- */
+	#infoMenu {
+		bottom: 80px;
+	}
+	#infoMenu li a {
+		color: #fff;
+		z-index: 999;
+	}
+
+	#menu {
+		ul {
+			list-style-type: none;
+			overflow: hidden;
+			margin: 0;
+			padding: 0;
+			background-color:none;
+		}
+		li {
+			list-style-type: none;
+			float: left;
+				a {
+				display: block;
+				color:#fff;
+				text-align: center;
+				padding: 14px 8px;
+				text-decoration: none;
+				}
+				a:hover:not(.active) {
+					color: #ff0000;
+				}
+		}
+	}
+
+
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+	}
+
+	/* Fixed header and footer.
+	* --------------------------------------- */
+	#header, #footer{
+		position:fixed;
+		height: 50px;
+		display:block;
+		width: 100%;
+  		background-color: rgba(255,255,255,0.1);
+		z-index:9;
+		text-align:center;
+		color: #f2f2f2;
+		padding: 20px 0 0 0;
+	}
+
+	#header{
+		top:0px;
+	}
+
+	#footer{
+		bottom:0px;
+	}

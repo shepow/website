@@ -1,0 +1,55 @@
+	/* Style for our header texts
+* --------------------------------------- */
+h1{
+	font-size: 5em;
+	font-family: arial,helvetica;
+	color: #fff;
+	margin:0;
+	padding:0;
+}
+
+body {
+	position: relative;
+}
+#home, #about, #projects, #team, #contactUs {
+	.intro {
+		color: #ffffff;
+		display: block;
+		height: 100%;
+		h1, p {
+			margin: 0;
+		    position: relative;
+		    top: 50%;
+		    left: 50%;
+		    transform: translate(-50%, -50%);
+		}
+	}
+}
+
+.full-ht {
+	height: 100vh;
+}
+#home, #projects, #contact, .full-ht {
+	background: -webkit-gradient(linear, top left, bottom left, from(#4bbfc3), to(#7baabe));
+	background: -webkit-linear-gradient(#4BBFC3, #7BAABE);
+	background: linear-gradient(#4BBFC3,#7BAABE);
+}
+
+#about, #team{
+	background: -webkit-gradient(linear, top left, bottom left, from(#969ac6), to(#636F8F));
+	background: -webkit-linear-gradient(#969AC6, #636F8F);
+	background: linear-gradient(#969AC6,#636F8F);
+}
+
+
+.intro {
+	color: #fff;
+	display: block;
+	height: 100%;
+	h1, p { 
+		vertical-align: middle;
+	}
+}
+	
+
+	
